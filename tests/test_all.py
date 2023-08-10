@@ -27,7 +27,6 @@
 #     'test_parser',
 #     'test_to_string',
 #     'test_validation',
-#     'test_mllp'
 #     ]
 #
 # suite = unittest.TestSuite()
