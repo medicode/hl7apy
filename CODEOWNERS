@@ -3,4 +3,4 @@
 # NOTE: Subsequent lines override, "Order is important; the last matching
 # pattern takes the most"
 
-*   @cbockman @medicode/sf-gdm-codeowners @medicode/toronto-gdm-codeowners @medicode/poland-gdm-codeowners
+*   @cbockman @kvudata @fathom-parth @fathom-scott @bonneaud @branko-fathom @fathom-aditya @fathom-pawel @fathom-jakub @fathom-tomek
