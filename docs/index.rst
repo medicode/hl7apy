@@ -12,10 +12,9 @@ The main features includes:
  * Access to elements by name, long name or position
  * Support to all simple and complex datatypes
  * Encoding chars customization
- * Message encoding in ER7 format and compliant with MLLP protocol
+ * Message encoding in ER7 format
  * Support to message profile
  * Support to Z-Elements
- * Simple MLLP server implementation
 
 Currently supported HL7 versions are: 2.1, 2.2, 2.3, 2.3.1, 2.4, 2.5, 2.5.1, 2.6, 2.7, 2.8, 2.8.1, 2.8.2
 
