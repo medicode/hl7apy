@@ -21,6 +21,7 @@ if "%1" == "help" (
 	echo.  html       to make standalone HTML files
 	echo.  dirhtml    to make HTML files named index.html in directories
 	echo.  singlehtml to make a single large HTML file
+	echo.  pickle     to make pickle files
 	echo.  json       to make JSON files
 	echo.  htmlhelp   to make HTML files and a HTML help project
 	echo.  qthelp     to make HTML files and a qthelp project
@@ -64,6 +65,14 @@ if "%1" == "singlehtml" (
 	if errorlevel 1 exit /b 1
 	echo.
 	echo.Build finished. The HTML pages are in %BUILDDIR%/singlehtml.
+	goto end
+)
+
+if "%1" == "pickle" (
+	%SPHINXBUILD% -b pickle %ALLSPHINXOPTS% %BUILDDIR%/pickle
+	if errorlevel 1 exit /b 1
+	echo.
+	echo.Build finished; now you can process the pickle files.
 	goto end
 )
 

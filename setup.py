@@ -42,7 +42,7 @@ The main features includes:
  * Access to elements by name, long name or position
  * Support to all simple and complex datatypes
  * Encoding chars customization
- * Message encoding in ER7 format
+ * Message encoding in ER7 format and compliant with MLLP protocol
 """
 
 
